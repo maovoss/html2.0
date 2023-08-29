@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br,en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clinica pediátrica</title>
+    <link rel="stylesheet" href="base.css">
+    <style>
+    html, body {
+    margin: 0;
+    }
+    body
+    {
+        background-color: #f1f1f1;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .wrapper {
+        width: 1200px;
+        display: flex;
+        margin: 0 auto;
+        background-color: aquamarine;
+    }
+    .main {
+        display: flex;
+        flex-flow: column;
+        width: 85%;
+    }
+    .menu {
+        text-align: left;
+        width: 15%;
+        background-color: rgb(164, 192, 252);
+        padding: 10px 20px 0px;
+    }
+    .header {
+        background-color: rgb(164, 192, 252);
+        text-align: center;
+        min-height: 130px;
+        font-size: 80px;
+    }
+    .content {
+        background-color: white;
+        min-height: 400px;
+        padding: 20px;
+    }
+    .endereco {
+        background-color: rgb(128, 128, 128);
+        text-align: center;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .footer {
+        text-align: center;
+        font-size: 10px;
+        background-color: rgb(164, 192, 252);
+        min-height: 70px;
+    }   
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <!-- Aqui vai o seu menu -->
+            <ul style="list-style: none; font-size: 26px;">
+                <br>
+                <li><a href="PaginaPrincipal.html" style="text-decoration: none; color: rgb(183, 134, 206); font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;">Página principal</a></li><br><br><br>
+                <li><a href="SobreAClinica.html" style="text-decoration: none; color: rgb(183, 134, 206); font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;">Sobre a clínica</a></li><br><br><br>
+                <li><a href="HorarioDeAtendimento.html" style="text-decoration: none; color: rgb(183, 134, 206); font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;">Horário de atendimento</a></li><br><br><br>
+                <li><a href="Contato.html" style="text-decoration: none; color: rgb(183, 134, 206); font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;">Contato</a></li>
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="header">
+                <p>Contato<img src="https://png.pngtree.com/png-vector/20230131/ourmid/pngtree-pediatrician-working-in-healthcare-concept-png-image_6579240.png" width="150"></p>
+                <!-- Aqui vai o seu header -->
+            </div>
+    
+            <div class="content">
+                <h3>Para entrar em contato ou visite o local:</h3>
+                <p>Whatsapp: (41) x xxxx xxxx</p>
+                <p>Telfone: (41) xxxx xxxx</p>
+                <form>
+                    Nome: <input type="text" name="name"/><br>
+                    E-mail: <input type="email"><br>
+                    Assunto: <input type="text" name="assunto"><br>
+                    Mensagem: <textarea name="message" rows="4" cols="70"></textarea><br>
+                    <button type="submit">Enviar</button>
+                </form>
+                <div class="endereco">
+                    <p>Endereço: Rua Marechal Deodoro, 1101 - Centro, Curitiba - PR</p>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3603.336326804526!2d-49.25776690000001!3d-25.427017!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94dce446952a24fb%3A0xde86dc5671b6c7c0!2sR.%20Mal.%20Deodoro%20-%20Matriz%2C%20Curitiba%20-%20PR%2C%2082590-300!5e0!3m2!1spt-BR!2sbr!4v1693343352218!5m2!1spt-BR!2sbr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <!-- Aqui vai o seu conteúdo -->
+            </div>
+    
+            <div class="footer">
+                <p>Instagram: @clinpedihtml</p>
+                <p>Telfone para contato: <font color="red"><i>(41) xxxx xxxx</i></font> ou atravez de nosso Whatsapp: <font color="red"><i>(41) x xxxx xxxx</i></font></p>
+                <p>Rua Marechal Deodoro, 1101 - Centro, Curitiba - PR</p>
+                    <!-- Aqui vai o seu rodapé -->
+            </div>
+        </div>
+    </div>
+</body>
+</html>

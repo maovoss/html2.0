@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br,en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clinica pediátrica</title>
+    <link rel="stylesheet" href="base.css">
+    <style>
+    html, body {
+    margin: 0;
+    }
+    body
+    {
+        background-color: #f1f1f1;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .wrapper {
+        width: 1200px;
+        display: flex;
+        margin: 0 auto;
+        background-color: aquamarine;
+    }
+    .main {
+        display: flex;
+        flex-flow: column;
+        width: 85%;
+    }
+    .menu {
+        text-align: left;
+        width: 15%;
+        background-color: rgb(164, 192, 252);
+        padding: 10px 20px 0px;
+    }
+    .header {
+        background-color: rgb(164, 192, 252);
+        text-align: center;
+        min-height: 130px;
+        font-size: 80px;
+    }
+    .content {
+        background-color: white;
+        min-height: 400px;
+        padding: 20px;
+        font-size: 23px;
+    }
+    .footer {
+        text-align: center;
+        font-size: 10px;
+        background-color: rgb(164, 192, 252);
+        min-height: 70px;
+    }   
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <!-- Aqui vai o seu menu -->
+            <ul style="list-style: none; font-size: 26px;">
+                <br>
+                <li><a href="PaginaPrincipal.html" style="text-decoration: none; color: rgb(183, 134, 206); font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;">Página principal</a></li><br><br><br>
+                <li><a href="SobreAClinica.html" style="text-decoration: none; color: rgb(183, 134, 206); font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;">Sobre a clínica</a></li><br><br><br>
+                <li><a href="HorarioDeAtendimento.html" style="text-decoration: none; color: rgb(183, 134, 206); font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;">Horário de atendimento</a></li><br><br><br>
+                <li><a href="Contato.html" style="text-decoration: none; color: rgb(183, 134, 206); font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;">Contato</a></li>
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="header">
+                <p>Agende seu horário<img src="https://png.pngtree.com/png-vector/20230131/ourmid/pngtree-pediatrician-working-in-healthcare-concept-png-image_6579240.png" width="150"></p>
+                <!-- Aqui vai o seu header -->
+            </div>
+    
+            <div class="content">
+                <p>Agenda de funcionamento:</p><br>
+                <table summary="Horário de funcionamento" border="1" align="center" width="800" height="200">
+                    <tr>
+                        <th>Seviços</th>
+                        <th>Segunda a sexta</th>
+                        <th>Sábados</th>
+                        <th>Feriados</th>
+                    </tr>
+                    <tr>
+                        <td>Consultas</td>
+                        <td>08 - 19h</td>
+                        <td>08 - 14h</td>
+                        <td>08 - 12h</td>
+                    </tr>
+                    <tr>
+                        <td>Exames</td>
+                        <td>08 - 19h</td>
+                        <td>08 - 12h</td>
+                        <td> - </td>
+                    </tr>
+                    <tr>
+                        <td>Tratamentos</td>
+                        <td>08 - 19h</td>
+                        <td>   -    </td>
+                        <td>   -   </td>
+                    </tr>
+                </table>
+                <!-- Aqui vai o seu conteúdo -->
+            </div>
+    
+            <div class="footer">
+                <p>Instagram: @clinpedihtml</p>
+                <p>Telfone para contato: <font color="red"><i>(41) xxxx xxxx</i></font> ou atravez de nosso Whatsapp: <font color="red"><i>(41) x xxxx xxxx</i></font></p>
+                <p>Rua Marechal Deodoro, 1101 - Centro, Curitiba - PR</p>
+                    <!-- Aqui vai o seu rodapé -->
+            </div>
+        </div>
+    </div>
+</body>
+</html>
